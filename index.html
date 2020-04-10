@@ -102,7 +102,7 @@
       var map = new mapboxgl.Map({
         container: 'map', // container id
         style: "mapbox://styles/mapbox/dark-v10", //YOUR TURN: choose a style: https://docs.mapbox.com/api/maps/#styles
-        center: [-122.411464, 37.7852299], // starting position [lng, lat]
+        center: [50.852192, -2.165301], // starting position [lng, lat]
         zoom: 9, // starting zoom
         transformRequest: transformRequest
       });
@@ -116,7 +116,7 @@
       function init() {
         Tabletop.init({
           // YOUR TURN: change 'key' value to point to your spreadsheet
-          key: 'https://docs.google.com/spreadsheets/d/14nT18YsoD47BJmFopQGvMoKq2uCMD_0w_3fbC85FsqA/',
+          key: 'https://docs.google.com/spreadsheets/d/14nT18YsoD47BJmFopQGvMoKq2uCMD_0w_3fbC85FsqA/edit?usp=sharing',
           // once Tabletop has loaded the data, it passes it to the 'callback' function, 'addPoints', defined below
           callback: addPoints,
           simpleSheet: true
